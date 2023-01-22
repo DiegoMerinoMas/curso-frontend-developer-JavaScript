@@ -373,7 +373,6 @@ aside {
     height: 140px;
   }
 }
-
 @media (min-width: 641px) {
   .mobile-menu {
     display: none;
