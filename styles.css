@@ -171,6 +171,9 @@ aside {
 /* ShoppingCart */
 #shoppingCartContainer {
   padding: 0 24px;
+  top: 60px;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 8px;
 }
 .title-container {
   display: flex;
@@ -377,4 +380,12 @@ aside {
   .mobile-menu {
     display: none;
   }
+}
+
+.dark{
+  width: 100%;
+  height: calc(100%);
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
